@@ -1,0 +1,18 @@
+.nome-centro {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+}
+
+.corpo {
+    background-image: url(../imagens/backgroud-principal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 80vh;
+}

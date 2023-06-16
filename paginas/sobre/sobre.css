@@ -1,0 +1,22 @@
+.corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    color: white;
+}
+
+img {
+    width: 300px;
+}
+
+p {
+    width: 60%;
+    color: black;
+}
+
+h2 {
+    font-size: 250%;
+}
