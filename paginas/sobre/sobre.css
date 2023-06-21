@@ -1,11 +1,10 @@
 .corpo{
-    color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: sans-serif;
 }
 .conteudo {
     display: flex;
@@ -15,8 +14,9 @@
     text-align: justify;
     background-color: white;
     padding: 10px;
-    width: 50%;
-    margin-bottom: px;
+    width: 64%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 img {
@@ -26,10 +26,10 @@ img {
 p {
     width: 100%;
     color: black;
-    background-color: white;
+    font-size: 20px;
     
 }
 
 h2 {
-    font-size: 250%;
+    font-size: 45px;
 }
