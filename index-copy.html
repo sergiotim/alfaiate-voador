@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="biblioteca/bootstrap.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <title>Sérgio Histórias</title>
 </head>
 
@@ -15,14 +16,14 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark" id="nav">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="">
                 <img src="imagens-copy/logo.svg" alt="Logo Sérgio Histórias" width="200">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="">Home</a>
                   </li>
@@ -42,8 +43,11 @@
     </header>
     <main>
         <section>
-            <div class="back text-light d-flex justify-content-center align-items-center text-center">
+            <div class="back text-light d-flex flex-column justify-content-around align-items-center text-center">
                 <h1 class="display-1">As melhores histórias você encontra aqui!</h1>
+                <div class="d-flex align-items-end fs-1">
+                  <i class="bi bi-arrow-down-circle-fill"></i>
+                </div>
             </div>
         </section>
         <section class="container marketing">
@@ -54,32 +58,29 @@
                 <div class="col-md-4">
                     <div class="d-flex flex-column align-items-center">
                         <img class="rounded-circle" src="imagens-copy/user-1.jpg" alt="Foto do Usuário" width="140" height="140">
-                        <h2 class="fw-normal">Heading</h2>
-                        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-                        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                        <h2 class="fw-normal">Pedro Santos</h2>
+                        <p>"Este site de histórias é incrível! As narrativas são envolventes, cativantes e cheias de emoção. Não consigo parar de ler!"</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="d-flex flex-column align-items-center">
                         <img class="rounded-circle" src="imagens-copy/user-2.jpg" alt="Foto do Usuário" width="140" height="140">
-                        <h2 class="fw-normal">Heading</h2>
-                        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-                        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                        <h2 class="fw-normal">Maria Oliveira</h2>
+                        <p>"Uma coleção de histórias inspiradoras e criativas. Os autores têm talento para prender a atenção dos leitores do início ao fim."</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="d-flex flex-column align-items-center">
                         <img class="rounded-circle" src="imagens-copy/user-3.jpg" alt="Foto do Usuário" width="140" height="140">
-                        <h2 class="fw-normal">Heading</h2>
-                        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-                        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                        <h2 class="fw-normal">Lucas Carvalho</h2>
+                        <p>"O melhor site para os amantes de ficção! As histórias são diversas, com gêneros variados que atendem a todos os gostos. Recomendo!"</p>
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <footer class="mt-5">
-        <div class="container-fluid bg-success d-flex justify-content-center text-light align-itens-center">
+        <div class="container-fluid d-flex justify-content-center text-light align-itens-center" id="back">
             <p>&copy; Criado por Sérgio Timoteo</p>
         </div>
     </footer>
