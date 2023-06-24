@@ -1,0 +1,7 @@
+.back{
+    background-image: url(../imagens-copy/backgroud-principal.png);
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
