@@ -16,8 +16,10 @@
     background-color: white;
     margin-top: 40px;
     height: auto;
+    padding: 20px;
 }
 
 .link {
     text-decoration: underline;
+    color: black;
 }
